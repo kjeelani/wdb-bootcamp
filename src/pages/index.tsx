@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TODO: page title</title>
+        <title>Spring 2023 Product Bootcamp!</title>
       </Head>
       <Stack p={4}>
         <Heading>WDB Next.js Template</Heading>
