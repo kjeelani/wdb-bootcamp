@@ -14,7 +14,7 @@ import NextNProgress from "nextjs-progressbar";
 import { ErrorBoundary } from "react-error-boundary";
 import { WarningTwoIcon } from "@chakra-ui/icons";
 
-import { theme } from "../utils/theme";
+import { theme } from "../styles/theme";
 
 export default function WeeklyApp({ Component, pageProps }: AppProps) {
   const { onClose } = useDisclosure();

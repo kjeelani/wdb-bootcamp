@@ -1,5 +1,5 @@
 {
-  "name": "TODO",
+  "name": "wdb-bootcamp-sp23",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -2250,41 +2250,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"TODO@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "TODO@workspace:."
-  dependencies:
-    "@chakra-ui/icons": ^2.0.9
-    "@chakra-ui/react": ^2.5.1
-    "@emotion/react": ^11.10.4
-    "@emotion/styled": ^11.10.4
-    "@types/eslint": ^8.4.6
-    "@types/node": 18.7.16
-    "@types/react": 18.0.18
-    "@typescript-eslint/eslint-plugin": ^5.36.2
-    "@typescript-eslint/parser": ^5.36.2
-    depcheck: ^1.4.3
-    eslint: ^8.23.0
-    eslint-config-next: 12.2.5
-    eslint-config-prettier: ^8.5.0
-    eslint-import-resolver-typescript: ^3.5.1
-    eslint-plugin-eslint-comments: ^3.2.0
-    eslint-plugin-etc: ^2.0.2
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-prettier: ^4.2.1
-    eslint-plugin-promise: ^6.0.1
-    framer-motion: ^7.3.2
-    husky: ^8.0.1
-    next: ^12.2.5
-    nextjs-progressbar: ^0.0.14
-    prettier: ^2.7.1
-    react: 18.2.0
-    react-dom: 18.2.0
-    react-error-boundary: ^3.1.4
-    typescript: 4.8.2
-  languageName: unknown
-  linkType: soft
-
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -6056,6 +6021,41 @@ __metadata:
   checksum: 474acf1146cb2701fe3b074892217553dfcf9a031280919ba1b8d651a068c9b15d863b7303cb15bd00a862b498e6cf4ad7b4a08fb134edd5a6f7641681cb54a2
   languageName: node
   linkType: hard
+
+"wdb-bootcamp-sp23@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "wdb-bootcamp-sp23@workspace:."
+  dependencies:
+    "@chakra-ui/icons": ^2.0.9
+    "@chakra-ui/react": ^2.5.1
+    "@emotion/react": ^11.10.4
+    "@emotion/styled": ^11.10.4
+    "@types/eslint": ^8.4.6
+    "@types/node": 18.7.16
+    "@types/react": 18.0.18
+    "@typescript-eslint/eslint-plugin": ^5.36.2
+    "@typescript-eslint/parser": ^5.36.2
+    depcheck: ^1.4.3
+    eslint: ^8.23.0
+    eslint-config-next: 12.2.5
+    eslint-config-prettier: ^8.5.0
+    eslint-import-resolver-typescript: ^3.5.1
+    eslint-plugin-eslint-comments: ^3.2.0
+    eslint-plugin-etc: ^2.0.2
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-prettier: ^4.2.1
+    eslint-plugin-promise: ^6.0.1
+    framer-motion: ^7.3.2
+    husky: ^8.0.1
+    next: ^12.2.5
+    nextjs-progressbar: ^0.0.14
+    prettier: ^2.7.1
+    react: 18.2.0
+    react-dom: 18.2.0
+    react-error-boundary: ^3.1.4
+    typescript: 4.8.2
+  languageName: unknown
+  linkType: soft
 
 "which-boxed-primitive@npm:^1.0.2":
   version: 1.0.2
