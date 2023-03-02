@@ -31,6 +31,12 @@ module.exports = {
     "next/core-web-vitals",
   ],
   rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        'endOfLine': 'auto',
+      }
+    ],
     "no-warning-comments": "warn",
     "no-await-in-loop": "warn",
     "no-bitwise": "warn",
