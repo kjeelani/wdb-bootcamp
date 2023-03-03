@@ -31,11 +31,11 @@ module.exports = {
     "next/core-web-vitals",
   ],
   rules: {
-    'prettier/prettier': [
-      'error',
+    "prettier/prettier": [
+      "error",
       {
-        'endOfLine': 'auto',
-      }
+        endOfLine: "auto",
+      },
     ],
     "no-warning-comments": "warn",
     "no-await-in-loop": "warn",
