@@ -14,7 +14,7 @@ Here's how to get started with development:
 4. [Recommended] Navigate to the Extensions tab in VS Code and type "@recommended" in the search bar. Install all of the extensions listed under "Workspace Recommendations" section and restart VS Code if prompted. See the [Recommended Extensions](<#Recommended Extensions>) section for a list of the extensions and their descriptions.
 5. Check if you have [Yarn](https://yarnpkg.com/) installed by running `yarn -v` in your terminal. If you don't have it installed, run `npm install -g yarn`.
 6. In the project directory, run `yarn` to install dependencies.
-7. Run `yarn dev` to start the development server.
+7. Run `yarn dev` to start the server.
 
 # Development Tasks
 
