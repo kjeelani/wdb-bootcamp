@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import { Box, SimpleGrid } from "@chakra-ui/layout";
 import { Image, useDisclosure } from "@chakra-ui/react";
 import { useState } from "react";
@@ -19,8 +19,7 @@ export default function CardGrid() {
           id={i}
           text={nArray[i]}
           deleteCard={() => {
-            noteArray.splice(i, 1);
-            document.getElementById(i.toString())!.style.display = "none"; // Is this bad practice?
+            setNoteArray(noteArray.filter((n) => n !== nArray[i])); // TODO: This doesn't work for identical notes
             console.log(noteArray); // TODO: Figure out why array is not updating
           }}
         />
@@ -37,7 +36,7 @@ export default function CardGrid() {
           isOpen={isOpen}
           onClose={onClose}
           addNote={(note: string) => {
-            noteArray.push(note);
+            setNoteArray([...noteArray, note]);
           }}
         />
         {Looper(noteArray)}
